@@ -79,3 +79,15 @@ a {
 .right {
   right: 10%;
 }
+
+.card-header {
+  h3 {
+    height: 100px;
+  }
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 2;
+  object-fit: cover;
+}
