@@ -8,7 +8,7 @@ const articles = [
     author: "Your Name",
     excerpt: "USB-C is becoming the universal port for many devices. We delve into its capabilities, benefits, and why it's the future of connectivity.",
     content: "",
-    image: "/images/usb-c.jpg",
+    image: "usb-c.avif",
     tags: ["usb-c", "connectivity", "ports", "technology", "gadgets"],
   },
   {
@@ -20,7 +20,7 @@ const articles = [
     author: "Your Name",
     excerpt: "With so many cloud storage options available, it can be tough to decide. We compare popular services based on storage, pricing, security, and features.",
     content: "",
-    image: "/images/cloud-storage.jpg",
+    image: "/img-2.jpg",
     tags: ["cloud storage", "online storage", "software", "apps", "comparison"],
   },
   {
@@ -32,7 +32,7 @@ const articles = [
     author: "Your Name",
     excerpt: "Smartwatches are evolving rapidly. We explore the newest features and innovations shaping the future of wearable tech.",
     content: "",
-    image: "/images/smartwatch-trends.jpg",
+    image: "img-3.jpg",
     tags: ["smartwatch", "wearable tech", "gadgets", "fitness", "technology"],
   },
   {
@@ -44,7 +44,7 @@ const articles = [
     author: "Your Name",
     excerpt: "Slow Wi-Fi got you down? Discover simple yet effective strategies to improve your wireless network speed and coverage at home.",
     content: "",
-    image: "/images/wifi-signal.jpg",
+    image: "img-4.jpg",
     tags: ["wi-fi", "networking", "internet", "home network", "tips"],
   },
   {
@@ -56,7 +56,7 @@ const articles = [
     author: "Your Name",
     excerpt: "The metaverse is a hot topic. We break down what it actually means and explore its potential impact on our digital lives.",
     content: "",
-    image: "/images/metaverse.jpg",
+    image: "img-5.webp",
     tags: ["metaverse", "virtual reality", "augmented reality", "future", "emerging tech"],
   },
   {
@@ -68,7 +68,7 @@ const articles = [
     author: "Your Name",
     excerpt: "Getting started with video editing? We review three user-friendly software options perfect for beginners.",
     content: "",
-    image: "/images/video-editing.jpg",
+    image: "img-6.jpg",
     tags: ["video editing", "software", "apps", "beginners", "creative"],
   },
   {
@@ -80,7 +80,7 @@ const articles = [
     author: "Your Name",
     excerpt: "Electric vehicles are gaining momentum. We look at the latest trends and technological advancements driving the EV revolution.",
     content: "",
-    image: "/images/electric-vehicle.jpg",
+    image: "img-7.png",
     tags: ["electric vehicles", "ev", "automotive", "technology", "transportation"],
   },
   {
@@ -92,7 +92,7 @@ const articles = [
     author: "Your Name",
     excerpt: "Protecting your personal data online is crucial. We share essential cybersecurity tips to keep your digital life safe and secure.",
     content: "",
-    image: "/images/cybersecurity.jpg",
+    image: "img-8.png",
     tags: ["cybersecurity", "security", "privacy", "online safety", "tips"],
   },
 ];
