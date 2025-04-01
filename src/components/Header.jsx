@@ -4,10 +4,10 @@ export default function Header() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-sm navbar-light bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-light">
           <div className="container">
             <a className="navbar-brand text-white" href="/">
-              <img className="logo" src="logo.png" alt="" />
+              <img className="logo" src="logopng.png" alt="" />
             </a>
             <button
               className="navbar-toggler d-lg-none"
@@ -29,7 +29,7 @@ export default function Header() {
                   <NavLink to={"/Posts"}>Posts</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/About-Us"}>AboutUs</NavLink>
+                  <NavLink to={"/About-Us"}>About Us</NavLink>
                 </li>
               </ul>
             </div>

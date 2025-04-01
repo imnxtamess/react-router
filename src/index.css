@@ -6,11 +6,24 @@ body {
   font-weight: 400;
 }
 
+.navbar {
+  background-color: #f1f6f9;
+}
+
 main {
   min-height: 100vh;
   overflow-y: hidden;
-  background-image: url(/public/mainbg-3.webp);
-  background-repeat: repeat;
+  background-image: url(mainbg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #f1f6f9;
+  color: #00345b;
+  h4 {
+    display: inline-block;
+  }
 }
 
 .mainbg {
@@ -23,12 +36,14 @@ a {
   font-weight: 600;
   &:hover {
     text-decoration: underline;
-    color: white;
+    color: #00345b;
+    font-weight: 700;
   }
 }
 
 .active {
-  color: white;
+  color: rgb(32, 72, 158);
+  font-weight: 700;
 }
 
 .logo {
