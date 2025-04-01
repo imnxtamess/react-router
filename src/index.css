@@ -5,3 +5,33 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
+
+main {
+  min-height: 100vh;
+  overflow-y: hidden;
+  background-image: url(/public/mainbg-3.webp);
+  background-repeat: repeat;
+}
+
+.mainbg {
+  font-size: 1.5rem;
+}
+
+a {
+  color: lightslategray;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+.active {
+  color: white;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 20px;
+}

@@ -6,8 +6,8 @@ export default function Header() {
       <header>
         <nav className="navbar navbar-expand-sm navbar-light bg-dark">
           <div className="container">
-            <a className="navbar-brand text-white" href="#">
-              LOGO
+            <a className="navbar-brand text-white" href="/">
+              <img className="logo" src="logo.png" alt="" />
             </a>
             <button
               className="navbar-toggler d-lg-none"
@@ -21,21 +21,15 @@ export default function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="collapsibleNavId">
-              <ul className="navbar-nav ms-auto mt-2 mt-lg-0 ">
+              <ul className="navbar-nav ms-auto mt-2 mt-lg-0 d-flex gap-3">
                 <li className="nav-item ">
-                  <NavLink className="nav-link" to={"/"}>
-                    Home
-                  </NavLink>
+                  <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to={"/Posts"}>
-                    Posts
-                  </NavLink>
+                  <NavLink to={"/Posts"}>Posts</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to={"/About-Us"}>
-                    AboutUs
-                  </NavLink>
+                  <NavLink to={"/About-Us"}>AboutUs</NavLink>
                 </li>
               </ul>
             </div>
