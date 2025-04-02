@@ -34,7 +34,9 @@ export default function Post() {
           <div className="mt-3 p-3 card">{foundPost.content}</div>
         </div>
         <button
-          className="carouselBtn left"
+          className={`carouselBtn left ${
+            Number(id) === 1 ? "text-secondary" : ""
+          }`}
           onClick={() => navigate(`/posts/${id >= 2 ? id - 1 : id}`)}
         >
           <svg
@@ -53,7 +55,9 @@ export default function Post() {
         </button>
 
         <button
-          className="carouselBtn right"
+          className={`carouselBtn right ${
+            Number(id) === lastId ? "text-secondary" : ""
+          }`}
           onClick={() =>
             navigate(`/posts/${id < lastId ? Number(id) + 1 : id}`)
           }
