@@ -7,7 +7,7 @@ export default function Posts() {
         <div className="container my-5">
           <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-5">
             {posts.map((post) => (
-              <div className="col">
+              <div key={post.id} className="col">
                 <Link to={`/posts/${post.id}`} className="card">
                   <div className="card-header">
                     <h3>{post.title}</h3>

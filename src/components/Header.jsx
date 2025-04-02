@@ -7,7 +7,7 @@ export default function Header() {
         <nav className="navbar navbar-expand-sm navbar-light">
           <div className="container">
             <a className="navbar-brand text-white" href="/">
-              <img className="logo" src="logopng.png" alt="" />
+              <img className="logo" src="/logopng.png" alt="" />
             </a>
             <button
               className="navbar-toggler d-lg-none"
@@ -26,10 +26,10 @@ export default function Header() {
                   <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/posts"}>Posts</NavLink>
+                  <NavLink to={"/Posts"}>Posts</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/about-us"}>About Us</NavLink>
+                  <NavLink to={"/About-Us"}>About Us</NavLink>
                 </li>
               </ul>
             </div>

@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="row justify-content-between">
             <div className="col">
               <a href="/">
-                <img className="logo" src="logopng.png" alt="" />
+                <img className="logo" src="/logopng.png" alt="" />
               </a>
               <h4>DIGITAL COMPASS</h4>
 
