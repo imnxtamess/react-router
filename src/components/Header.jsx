@@ -26,10 +26,10 @@ export default function Header() {
                   <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/Posts"}>Posts</NavLink>
+                  <NavLink to={"/posts"}>Posts</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to={"/About-Us"}>About Us</NavLink>
+                  <NavLink to={"/about-us"}>About Us</NavLink>
                 </li>
               </ul>
             </div>
